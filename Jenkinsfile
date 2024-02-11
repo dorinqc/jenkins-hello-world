@@ -7,7 +7,7 @@ pipeline {
           // Choisissez la commande en fonction de votre script
           // sh 'python hello.py' // Pour Python
           // sh 'javac HelloWorld.java && java HelloWorld' // Pour Java
-          sh 'javac HelloWorld.java'
+          bat 'javac HelloWorld.java'
         }
       }
     }
