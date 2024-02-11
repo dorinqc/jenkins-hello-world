@@ -8,7 +8,7 @@ pipeline {
     }
     stage('Build and run the javafile') {
       steps {
-        bat 'javac LuckyNumbers.java && && java LuckyNumbers'
+        bat 'javac LuckyNumbers.java && java LuckyNumbers'
       }
     }
     stage('Test') {
